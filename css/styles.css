@@ -1,0 +1,87 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+    color: #212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 700;
+}
+.main-logo{
+font-family: 'Raleway';
+font-size: 26px;
+line-height: 1;
+letter-spacing: 0.03em;
+}
+.navigations-list{
+letter-spacing: 0.02em;
+color: #212121;
+}
+.contact-link{
+letter-spacing: 0.02em;
+color: #757575;
+}
+.button-control{
+line-height: 1;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.button-controls{
+line-height: 0.5;
+letter-spacing: 0.06em;
+text-align: center;
+}
+button{
+  cursor: pointer;
+}
+button:hover{
+  background: #2196F3;
+}
+button:focus,ul :focus{
+  color: #2196F3;
+}
+h2{
+font-size: 18px;
+line-height: 0.44;
+letter-spacing: 0.06em;
+}
+h3{
+letter-spacing: 0.03em;
+}
+.texts{
+font-size: 14px;
+line-height: 0.9;
+letter-spacing: 0.03em;
+
+}
+.text{
+font-weight: 400;
+line-height: 0.53;
+letter-spacing: 0.03em;
+}
+.list-photo{
+line-height: 0.84;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.list-name{
+font-weight: 500;
+line-height: 0.8;
+letter-spacing: 0.03em;
+}
+.navigations-list:hover, .contact-link:hover, .navigations-list:focus, .contact-link:focus{
+  color: #2196F3;
+}
+.main-logo{
+  text-decoration: none;
+}
+li{
+  list-style-type:none;
+}
+.add{
+  color: #FFFFFF;
+}
+footer{
+  background-color: #2F303A;
+}
