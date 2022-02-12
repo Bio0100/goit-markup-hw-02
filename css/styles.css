@@ -9,7 +9,7 @@ body{
     font-weight: 700;
 }
 .headr-logo{
-  font-size: 'Raleway';
+  font-family: 'Raleway';
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -32,7 +32,7 @@ letter-spacing: 0.02em;
 color: #757575;
 text-decoration: none;
 }
-.button-cont{
+.button-main{
   font-size: 16px;
   font-weight: 500;
   line-height: 2;
@@ -45,14 +45,10 @@ text-decoration: none;
 }.button-main:hover, .button-control:hover{
   background-color: #2196F3;
 }
-
 .button-controls{
 line-height: 0.5;
 letter-spacing: 0.06em;
 text-align: center;
-}
-button{
-  cursor: pointer;
 }
 h2{
 font-size: 18px;
@@ -85,7 +81,10 @@ font-weight: 500;
 line-height: 0.8;
 letter-spacing: 0.03em;
 }
-.navigations-list:hover, .contact-link:hover, .navigations-list:focus, .contact-link:focus{
+.navigations-list:hover, .contact-link:hover{
+background-color: #2196F3;
+}
+.navigations-list:focus, .contact-link:focus{
   color: #2196F3;
 }
 .main-logo{
@@ -136,10 +135,22 @@ text-decoration: none;
   color: #2196F3;
 }
 .hero{
+  background-color: #2F303A;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #FFFFFF;
+}
+.list-team{
+  background-color: #F5F4FA;
+}
+.color-hero{
+  background-color: #FFFFFF
+}
+.headr-logo, .logo-list{
+  cursor: pointer;
+
 }
