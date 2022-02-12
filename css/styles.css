@@ -9,6 +9,7 @@ body{
     font-weight: 700;
 }
 .headr-logo{
+  font-size: 'Raleway';
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -64,6 +65,7 @@ letter-spacing: 0.03em;
 font-size: 14px;
 line-height: 1.5;
 letter-spacing: 0.03em;
+color: #757575;
 
 }
 .text{
@@ -119,9 +121,9 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.2;
 letter-spacing: 0.03em;
-color: #757575;
 }
 .logo-footer{
+font-size: 'Raleway';
 font-size: 26px;
 font-weight: 700;
 line-height: 1.2;
