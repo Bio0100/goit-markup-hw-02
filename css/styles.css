@@ -8,17 +8,23 @@ body{
     line-height: 1;
     font-weight: 700;
 }
-.main-logo{
-font-family: 'Raleway';
-font-size: 26px;
-line-height: 1;
-letter-spacing: 0.03em;
+.headr-logo{
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .navigations-list{
-letter-spacing: 0.02em;
-color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
 .contact-link{
+  font-size: 14;
+line-height: 1.7;
 letter-spacing: 0.02em;
 color: #757575;
 }
@@ -51,14 +57,15 @@ letter-spacing: 0.03em;
 }
 .texts{
 font-size: 14px;
-line-height: 0.9;
+line-height: 1.5;
 letter-spacing: 0.03em;
 
 }
 .text{
 font-weight: 400;
-line-height: 0.53;
+line-height: 1.9;
 letter-spacing: 0.03em;
+color: #757575;
 }
 .list-photo{
 line-height: 0.84;
@@ -80,8 +87,40 @@ li{
   list-style-type:none;
 }
 .add{
-  color: #FFFFFF;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.7px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+margin-top: 20px;
 }
 footer{
   background-color: #2F303A;
+}
+.button-controls{
+height: 50px;
+width: 200px;
+left: 700px;
+top: 430px;
+border-radius: 4px;
+font-weight: 700;
+line-height: 1.9;
+letter-spacing: 0.06em;
+text-align: center;
+}
+.work{
+font-size: 36px;
+font-weight: 700;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+.logo-footer{
+font-size: 26px;
+font-weight: 700;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color:#FFFFFF;
+}
+.logo-footer span, .headr-logo span{
+  color: #2196F3;
 }
