@@ -43,10 +43,7 @@ text-decoration: none;
 
 }
 .button-main:focus, .button-control:focus{
-  outline: none;
   color: #2196F3;
-}.button-main:hover, .button-control:hover{
-  background-color: #2196F3;
 }
 .button-controls{
 line-height: 0.5;
@@ -84,14 +81,8 @@ font-weight: 500;
 line-height: 0.8;
 letter-spacing: 0.03em;
 }
-.navigations-list:hover, .contact-link:hover{
-background-color: #2196F3;
-}
-.navigations-list:focus, .contact-link:focus{
-  color: #2196F3;
-}
-.main-logo{
-  text-decoration: none;
+.navigations-list:hover, .contact-link:hover, .navigations-list:focus, .contact-link:focus{
+color: #2196F3;
 }
 li{
   list-style-type:none;
@@ -108,16 +99,11 @@ text-decoration: none;
 footer{
   background-color: #2F303A;
 }
-.button-controls{
-height: 50px;
-width: 200px;
-left: 700px;
-top: 430px;
+.button-control{
 border-radius: 4px;
 font-weight: 700;
 line-height: 1.9;
 letter-spacing: 0.06em;
-text-align: center;
 }
 .work{
 font-size: 36px;
