@@ -17,6 +17,9 @@ body{
   color: #212121;
   text-decoration: none;
 }
+.headr-logo:focus, .headr-logo:hover{
+  text-decoration: underline #2196F3;
+}
 .navigations-list{
   font-size: 14px;
   font-weight: 500;
