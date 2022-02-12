@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #E5E5E5;
+    background-color: #FFFFFF
     color: #212121;
     font-style: normal;
     font-weight: 500;
@@ -37,8 +37,15 @@ text-decoration: none;
   font-weight: 500;
   line-height: 2;
   letter-spacing: 0.03em;
-  
+
 }
+.button-main:focus, .button-control:focus{
+  outline: none;
+  color: #2196F3;
+}.button-main:hover, .button-control:hover{
+  background-color: #2196F3;
+}
+
 .button-controls{
 line-height: 0.5;
 letter-spacing: 0.06em;
@@ -46,12 +53,6 @@ text-align: center;
 }
 button{
   cursor: pointer;
-}
-button:hover{
-  background: #2196F3;
-}
-button:focus,ul :focus{
-  color: #2196F3;
 }
 h2{
 font-size: 18px;
