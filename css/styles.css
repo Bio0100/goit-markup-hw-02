@@ -31,10 +31,12 @@ letter-spacing: 0.02em;
 color: #757575;
 text-decoration: none;
 }
-.button-control{
-line-height: 1;
-letter-spacing: 0.03em;
-text-align: center;
+.button-cont{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  
 }
 .button-controls{
 line-height: 0.5;
@@ -117,6 +119,7 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.2;
 letter-spacing: 0.03em;
+color: #757575;
 }
 .logo-footer{
 font-size: 26px;
@@ -128,4 +131,12 @@ text-decoration: none;
 }
 .logo-footer span, .headr-logo span{
   color: #2196F3;
+}
+.hero{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
