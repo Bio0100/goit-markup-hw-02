@@ -14,6 +14,7 @@ body{
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #212121;
+  text-decoration: none;
 }
 .navigations-list{
   font-size: 14px;
@@ -21,12 +22,14 @@ body{
   line-height: 1.1;
   letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
 .contact-link{
   font-size: 14;
 line-height: 1.7;
 letter-spacing: 0.02em;
 color: #757575;
+text-decoration: none;
 }
 .button-control{
 line-height: 1;
@@ -93,6 +96,7 @@ line-height: 1.7px;
 letter-spacing: 0.03em;
 color: #FFFFFF;
 margin-top: 20px;
+text-decoration: none;
 }
 footer{
   background-color: #2F303A;
@@ -120,6 +124,7 @@ font-weight: 700;
 line-height: 1.2;
 letter-spacing: 0.03em;
 color:#FFFFFF;
+text-decoration: none;
 }
 .logo-footer span, .headr-logo span{
   color: #2196F3;
