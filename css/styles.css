@@ -7,7 +7,7 @@ body{
     font-size: 16px;
     line-height: 1;
     font-weight: 700;
-    
+
   }
 .headr-logo{
   font-family: 'Raleway';
@@ -42,18 +42,17 @@ text-decoration: none;
   color: #FFFFFF;
   background: #2196F3;
   font-weight: 700;
+  font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 .button-control:focus,
 .button-control:hover{
-line-height: 0.5;
-letter-spacing: 0.06em;
-text-align: center;
-border:none;
 color: #2196F3;
+cursor: pointer;
 }
 h2{
 font-size: 18px;
@@ -109,7 +108,6 @@ border-radius: 4px;
 font-weight: 700;
 line-height: 1.9;
 letter-spacing: 0.06em;
-border:none;
 }
 .work{
 font-size: 36px;
