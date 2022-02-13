@@ -30,11 +30,12 @@ body{
   text-decoration: none;
 }
 .contact-link{
-  font-size: 14;
-line-height: 1.7;
-letter-spacing: 0.02em;
-color: #757575;
-text-decoration: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 .button-main:focus,
 .button-main:hover,
@@ -60,8 +61,10 @@ line-height: 0.44;
 letter-spacing: 0.06em;
 }
 .texts{
+font-family: 'Roboto';
+font-weight: normal;
 font-size: 14px;
-line-height: 1.5;
+line-height: 2;
 letter-spacing: 0.03em;
 color: #757575;
 
@@ -73,26 +76,30 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 .list-photo{
-line-height: 0.84;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.9;
 letter-spacing: 0.03em;
 color: #757575;
 }
 .list-name{
-font-weight: 500;
-line-height: 0.8;
-letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
-.navigations-list:hover, .contact-link:hover, .navigations-list:focus, .contact-link:focus{
+.navigations-list:hover, .contact-link:hover, .navigations-list:focus, .contact-link:focus, .contact-link-headr:focus, .contact-link-headr:hover{
 color: #2196F3;
 }
 li{
   list-style-type:none;
 }
 .add{
-font-size: 14px;
-font-weight: 400;
-line-height: 1.7px;
-letter-spacing: 0.03em;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-top: 20px;
 text-decoration: none;
@@ -101,39 +108,43 @@ footer{
   background-color: #2F303A;
 }
 .button-control{
-border-radius: 4px;
-font-weight: 700;
-line-height: 1.9;
-letter-spacing: 0.06em;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .work{
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.03em;
+font-family: 'Roboto';
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.03em;
+text-transform: uppercase;
   
 }
 .logo-footer{
-font-size: 'Raleway';
-font-size: 26px;
-font-weight: 700;
-line-height: 1.2;
-letter-spacing: 0.03em;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 color:#FFFFFF;
 text-decoration: none;
 }
 .logo-footer span, .headr-logo span{
   color: #2196F3;
 }
-.hero{
-  background-color: #2F303A;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #FFFFFF;
 }
 .list-team{
 background-color: #F5F4FA;
@@ -149,10 +160,40 @@ letter-spacing: 0.03em;
   cursor: pointer;
 }
 .work-m{
-font-size: 36px;
-font-weight: 700;
-line-height: 1.2;
-letter-spacing: 0.03em;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121
 }
+.hero-style{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
 
-
+}
+.hero{
+  background-color: #2F303A;
+}
+.contact-link-headr{
+font-family:'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.meta-if{
+font-family: 'Roboto';
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
