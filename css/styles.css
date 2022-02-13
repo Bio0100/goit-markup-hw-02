@@ -35,20 +35,24 @@ letter-spacing: 0.02em;
 color: #757575;
 text-decoration: none;
 }
+.button-main:focus,
+.button-main:hover,
 .button-main{
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 2;
-  letter-spacing: 0.03em;
-
+  color: #FFFFFF;
+  background: #2196F3;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
-.button-main:focus, .button-control:focus{
-  color: #2196F3;
-}
-.button-controls{
+.button-control:focus,
+.button-control:hover{
 line-height: 0.5;
 letter-spacing: 0.06em;
 text-align: center;
+border:none;
+color: #2196F3;
 }
 h2{
 font-size: 18px;
@@ -104,6 +108,7 @@ border-radius: 4px;
 font-weight: 700;
 line-height: 1.9;
 letter-spacing: 0.06em;
+border:none;
 }
 .work{
 font-size: 36px;
