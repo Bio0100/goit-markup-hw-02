@@ -11,9 +11,10 @@ body{
   }
 .headr-logo{
   font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
   font-size: 26px;
-  font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #212121;
   text-decoration: none;
@@ -96,6 +97,7 @@ li{
 }
 .add{
   font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
