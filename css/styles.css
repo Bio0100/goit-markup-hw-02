@@ -1,12 +1,20 @@
+
+:root {
+  --akcent-color: #2196f3;
+  --second-color: #757575;
+  --background: #f5f4fa;
+  --white-color: #ffffff;
+  --color-text: #212121;
+}
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
     color: #212121;
     font-style: normal;
-    font-weight: 500;
+    font-weight: normal;
     font-size: 16px;
     line-height: 1;
-    font-weight: 700;
+    font-weight: 400;
 
   }
 .headr-logo{
@@ -16,33 +24,34 @@ body{
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-text);
   text-decoration: none;
 }
 .headr-logo:focus, .headr-logo:hover{
-  text-decoration: underline #2196F3;
+  text-decoration: underline var(--akcent-color);
 }
 .navigations-list{
   font-size: 14px;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color-text);
   text-decoration: none;
 }
 .contact-link{
+  font-style: normal;
+  font-weight: 500;
   text-decoration: none;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
 }
 .button-main:focus,
 .button-main:hover,
 .button-main{
-  color: #FFFFFF;
-  background: #2196F3;
+  color: var(--white-color);
+  background: var(--akcent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -53,7 +62,7 @@ body{
 }
 .button-control:focus,
 .button-control:hover{
-color: #2196F3;
+color: var(--akcent-color);
 cursor: pointer;
 }
 h2{
@@ -62,26 +71,22 @@ line-height: 0.44;
 letter-spacing: 0.06em;
 }
 .texts{
-font-family: 'Roboto';
-font-weight: normal;
 font-size: 14px;
 line-height: 2;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--second-color)
 
 }
 .text{
-font-weight: 400;
 line-height: 1.9;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--second-color)
 }
 .list-photo{
-font-weight: normal;
 font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--second-color)
 }
 .list-name{
   font-weight: 500;
@@ -90,7 +95,7 @@ color: #757575;
   letter-spacing: 0.03em;
 }
 .navigations-list:hover, .contact-link:hover, .navigations-list:focus, .contact-link:focus, .contact-link-headr:focus, .contact-link-headr:hover{
-color: #2196F3;
+color: var(--akcent-color)
 }
 li{
   list-style-type:none;
@@ -102,7 +107,7 @@ li{
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--white-color);
 margin-top: 20px;
 text-decoration: none;
 }
@@ -116,16 +121,14 @@ footer{
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  background-color: #f5f4fa;
+  color: var(--color-text);
+  background-color: var(--background);
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 .work{
-font-family: 'Roboto';
 font-size: 14px;
-font-style: normal;
 font-weight: 700;
 font-weight: bold;
 font-size: 14px;
@@ -135,39 +138,38 @@ text-transform: uppercase;
   
 }
 .logo-footer{
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-color:#FFFFFF;
+color:var(--white-color);
 text-decoration: none;
 }
 .logo-footer span, .headr-logo span{
-  color: #2196F3;
+  color: var(--akcent-color)
 }
 }
 .list-team{
-background-color: #F5F4FA;
+background-color: var(--background);
 font-size: 16px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.03em;
 }
 .color-hero{
-  background-color: #FFFFFF
+  background-color: var(--white-color)
 }
 .headr-logo, .logo-list{
   cursor: pointer;
 }
 .work-m{
-  font-family: 'Roboto';
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121
+  color: var(--color-text)
 }
 .hero-style{
   font-weight: 900;
@@ -176,8 +178,7 @@ letter-spacing: 0.03em;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
-
+  color: var(--white-color);
 }
 .hero{
   background-color: #2F303A;
@@ -189,13 +190,14 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.4;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--second-color);
+text-decoration: none;
 }
 .meta-if{
-font-family: 'Roboto';
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--color-text);
 }
+s
